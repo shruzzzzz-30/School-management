@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS school_db;
+USE school_db;
+
+CREATE TABLE IF NOT EXISTS schools (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name TEXT NOT NULL,
+  address TEXT NOT NULL,
+  city TEXT NOT NULL,
+  state TEXT NOT NULL,
+  contact VARCHAR(20) NOT NULL,
+  image TEXT NOT NULL,
+  email_id VARCHAR(255) NOT NULL
+);
